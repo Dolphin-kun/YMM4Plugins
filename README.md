@@ -15,7 +15,7 @@
 |LaTeX数式|1.2.0|[FormulaText](https://github.com/Dolphin-kun/FormulaText)|
 |YMM4エクスプローラー|1.5.2|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|
 |YMM4クリップボード|1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|
-|テキスト分割|v1.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|
+|テキスト分割|1.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|
 
 最終更新日
 2025/10/21
