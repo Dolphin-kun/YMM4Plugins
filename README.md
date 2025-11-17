@@ -13,7 +13,7 @@
 |残像|1.0.2|[Afterimage](https://github.com/Dolphin-kun/Afterimage)|
 |YMM4Discord読み上げ|1.1.0|[YMM4DiscordTTS](https://github.com/Dolphin-kun/YMM4DiscordTTS)|
 |LaTeX数式|1.2.0|[FormulaText](https://github.com/Dolphin-kun/FormulaText)|
-|YMM4エクスプローラー|1.5.2|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|
+|YMM4エクスプローラー|1.5.3|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|
 |YMM4クリップボード|1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|
 |テキスト分割|1.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|
 
