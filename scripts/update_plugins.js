@@ -61,12 +61,24 @@ async function updateReadme() {
         let content = fs.readFileSync(README_PATH, 'utf8');
 
         const newTable = await generateTable();
-        const tableRegex =　/<!-- PLUGIN_TABLE_START -->[\s\S]*?<!-- PLUGIN_TABLE_END -->/;
-        content = content.replace(tableRegex, `$1\n${newTable}$3`);
 
-        const today = new Date().toLocaleDateString('ja-JP', { year: 'numeric', month: '2-digit', day: '2-digit' });
-        const dateRegex =　/<!-- UPDATED_AT -->[\s\S]*?(?=\n|$)/;
-        content = content.replace(dateRegex, `$1\n${today}\n$3`);
+        // 表の更新
+        content = content.replace(
+            /<!-- PLUGIN_TABLE_START -->[\s\S]*?<!-- PLUGIN_TABLE_END -->/,
+            `<!-- PLUGIN_TABLE_START -->\n${newTable}\n<!-- PLUGIN_TABLE_END -->`
+        );
+
+        // 日付の更新
+        const today = new Date().toLocaleDateString('ja-JP', {
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit'
+        });
+
+        content = content.replace(
+            /<!-- UPDATED_AT -->[\s\S]*?(?=\n|$)/,
+            `<!-- UPDATED_AT --> ${today}`
+        );
 
         fs.writeFileSync(README_PATH, content, 'utf8');
         console.log("README updated successfully!");
@@ -76,5 +88,6 @@ async function updateReadme() {
         process.exit(1);
     }
 }
+
 
 updateReadme();
