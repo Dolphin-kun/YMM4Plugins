@@ -61,11 +61,11 @@ async function updateReadme() {
         let content = fs.readFileSync(README_PATH, 'utf8');
 
         const newTable = await generateTable();
-        const tableRegex = /()([\s\S]*?)()/;
+        const tableRegex =　/<!-- PLUGIN_TABLE_START -->[\s\S]*?<!-- PLUGIN_TABLE_END -->/;
         content = content.replace(tableRegex, `$1\n${newTable}$3`);
 
         const today = new Date().toLocaleDateString('ja-JP', { year: 'numeric', month: '2-digit', day: '2-digit' });
-        const dateRegex = /()([\s\S]*?)()/;
+        const dateRegex =　/<!-- UPDATED_AT -->[\s\S]*?(?=\n|$)/;
         content = content.replace(dateRegex, `$1\n${today}\n$3`);
 
         fs.writeFileSync(README_PATH, content, 'utf8');
