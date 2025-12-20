@@ -17,7 +17,7 @@
 |YMM4エクスプローラー|v1.5.3|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|
 |YMM4クリップボード|v1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|
 |テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|
-|スコープモニター|Beta|[ScopeMonitor](https://github.com/Dolphin-kun/ScopeMonitor)|
+|スコープモニター|v1.0.0|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|
 
 <!-- PLUGIN_TABLE_END -->
 
