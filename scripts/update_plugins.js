@@ -18,7 +18,7 @@ const PLUGINS = {
     "YMM4FileExplorer": "YMM4エクスプローラー",
     "YMM4Clipboard": "YMM4クリップボード",
     "TextSplitter": "テキスト分割",
-    "ScopeMonitor": "スコープモニター"
+    "ScopeMonitorTool": "スコープモニター"
 };
 
 async function getLatestVersion(repoName) {
