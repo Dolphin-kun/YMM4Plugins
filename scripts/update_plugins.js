@@ -21,6 +21,14 @@ const PLUGINS = {
     "ScopeMonitorTool": "スコープモニター"
 };
 
+const TOPIC_LABELS = {
+    "ymm4-tool": "ツール",
+    "ymm4-tachie": "立ち絵",
+    "ymm4-video-effect": "映像エフェクト",
+    "ymm4-audio-effect": "音声エフェクト",
+    "ymm4-shape": "図形"
+};
+
 async function getLatestVersion(repoName) {
     const url = `https://api.github.com/repos/${GITHUB_USER}/${repoName}/releases/latest`;
     const token = process.env.GITHUB_TOKEN;
@@ -44,14 +52,48 @@ async function getLatestVersion(repoName) {
     }
 }
 
+async function getRepoTopics(repoName) {
+    const url = `https://api.github.com/repos/${GITHUB_USER}/${repoName}`;
+    const token = process.env.GITHUB_TOKEN;
+
+    const headers = {
+        'User-Agent': 'Update-Readme-Script',
+        'Accept': 'application/vnd.github+json',
+        ...(token && { 'Authorization': `token ${token}` })
+    };
+
+    try {
+        const res = await fetch(url, { headers });
+        if (!res.ok) return [];
+
+        const data = await res.json();
+        return data.topics || [];
+    } catch (e) {
+        console.error(`Topic fetch error (${repoName}):`, e);
+        return [];
+    }
+}
+
+function resolveCategory(topics) {
+   return topics
+        .filter(t => TOPIC_LABELS[t])
+        .map(t => TOPIC_LABELS[t])
+        .join(" / ") || "その他";
+}
+
+
 async function generateTable() {
-    let table = "|プラグイン|バージョン|リンク|\n";
-    table += "|-|-|-|\n";
+    let table = "|プラグイン|バージョン|リンク|種類|\n";
+    table += "|-|-|-|-|\n";
 
     for (const [repo, name] of Object.entries(PLUGINS)) {
-        const version = await getLatestVersion(repo);
+        const [version, topics] = await Promise.all([
+            getLatestVersion(repo),
+            getRepoTopics(repo)
+        ]);
+        const category = resolveCategory(topics);
         const link = `[${repo}](https://github.com/${GITHUB_USER}/${repo})`;
-        table += `|${name}|${version}|${link}|\n`;
+        table += `|${name}|${version}|${link}|${category}|\n`;
     }
     return table;
 }
