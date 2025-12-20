@@ -12,12 +12,12 @@
 |動体検知|v1.0|[MotionDetection](https://github.com/Dolphin-kun/MotionDetection)|映像エフェクト|
 |パーツ分解|v1.1|[PartsSplitter](https://github.com/Dolphin-kun/PartsSplitter)|映像エフェクト|
 |残像|v1.0.2|[Afterimage](https://github.com/Dolphin-kun/Afterimage)|映像エフェクト|
-|YMM4Discord読み上げ|v1.1.0|[YMM4DiscordTTS](https://github.com/Dolphin-kun/YMM4DiscordTTS)|その他|
+|YMM4Discord読み上げ|v1.1.0|[YMM4DiscordTTS](https://github.com/Dolphin-kun/YMM4DiscordTTS)|ツール|
 |LaTeX数式|v1.2.0|[FormulaText](https://github.com/Dolphin-kun/FormulaText)|図形|
-|YMM4エクスプローラー|v1.5.3|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|その他|
-|YMM4クリップボード|v1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|その他|
-|テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|その他|
-|スコープモニター|v1.0.0|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|その他|
+|YMM4エクスプローラー|v1.5.3|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|ツール|
+|YMM4クリップボード|v1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|ツール|
+|テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|ツール|
+|スコープモニター|v1.0.0|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|ツール|
 
 <!-- PLUGIN_TABLE_END -->
 
