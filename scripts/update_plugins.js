@@ -53,7 +53,6 @@ async function getLatestVersion(repoName) {
     }
 }
 
-// 変更点1: トピックとIssue数をまとめて取得する関数に変更
 async function getRepoDetails(repoName) {
     const url = `https://api.github.com/repos/${GITHUB_USER}/${repoName}`;
     const token = process.env.GITHUB_TOKEN;
@@ -87,12 +86,10 @@ function resolveCategory(topics) {
 }
 
 async function generateTable() {
-    // 変更点2: ヘッダーにIssue列を追加
     let table = "|プラグイン|バージョン|リンク|種類|Issue|\n";
     table += "|-|-|-|-|-|\n";
 
     for (const [repo, name] of Object.entries(PLUGINS)) {
-        // 変更点3: Promise.allで詳細情報を受け取る
         const [version, details] = await Promise.all([
             getLatestVersion(repo),
             getRepoDetails(repo)
@@ -101,7 +98,6 @@ async function generateTable() {
         const category = resolveCategory(details.topics);
         const link = `[${repo}](https://github.com/${GITHUB_USER}/${repo})`;
         
-        // 変更点4: Issue数とリンクの生成（0件でもリンクがあると便利ですが、不要なら数字だけでも可）
         const issueCount = details.open_issues_count;
         const issueLink = `[${issueCount}](https://github.com/${GITHUB_USER}/${repo}/issues)`;
 
@@ -118,8 +114,8 @@ async function updateReadme() {
 
         // 表の更新
         content = content.replace(
-            /[\s\S]*?/,
-            `\n${newTable}\n`
+            /<!-- PLUGIN_TABLE_START -->[\s\S]*?<!-- PLUGIN_TABLE_END -->/,
+            `<!-- PLUGIN_TABLE_START -->\n${newTable}\n<!-- PLUGIN_TABLE_END -->`
         );
 
         // 日付の更新
@@ -130,8 +126,8 @@ async function updateReadme() {
         });
 
         content = content.replace(
-            /[\s\S]*?(?=\n|$)/,
-            `${today}`
+             /<!-- UPDATED_AT -->[\s\S]*?(?=\n|$)/,
+            `<!-- UPDATED_AT --> ${today}`
         );
 
         fs.writeFileSync(README_PATH, content, 'utf8');
