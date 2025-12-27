@@ -18,7 +18,8 @@ const PLUGINS = {
     "YMM4FileExplorer": "YMM4エクスプローラー",
     "YMM4Clipboard": "YMM4クリップボード",
     "TextSplitter": "テキスト分割",
-    "ScopeMonitorTool": "スコープモニター"
+    "ScopeMonitorTool": "スコープモニター",
+    "YMM4Physics2D": "物理演算"
 };
 
 const TOPIC_LABELS = {
