@@ -53,7 +53,8 @@ async function getLatestVersion(repoName) {
     }
 }
 
-async function getRepoTopics(repoName) {
+// 変更点1: トピックとIssue数をまとめて取得する関数に変更
+async function getRepoDetails(repoName) {
     const url = `https://api.github.com/repos/${GITHUB_USER}/${repoName}`;
     const token = process.env.GITHUB_TOKEN;
 
@@ -65,13 +66,16 @@ async function getRepoTopics(repoName) {
 
     try {
         const res = await fetch(url, { headers });
-        if (!res.ok) return [];
+        if (!res.ok) return { topics: [], open_issues_count: 0 };
 
         const data = await res.json();
-        return data.topics || [];
+        return {
+            topics: data.topics || [],
+            open_issues_count: data.open_issues_count || 0
+        };
     } catch (e) {
-        console.error(`Topic fetch error (${repoName}):`, e);
-        return [];
+        console.error(`Details fetch error (${repoName}):`, e);
+        return { topics: [], open_issues_count: 0 };
     }
 }
 
@@ -82,19 +86,26 @@ function resolveCategory(topics) {
         .join(" / ") || "その他";
 }
 
-
 async function generateTable() {
-    let table = "|プラグイン|バージョン|リンク|種類|\n";
-    table += "|-|-|-|-|\n";
+    // 変更点2: ヘッダーにIssue列を追加
+    let table = "|プラグイン|バージョン|リンク|種類|Issue|\n";
+    table += "|-|-|-|-|-|\n";
 
     for (const [repo, name] of Object.entries(PLUGINS)) {
-        const [version, topics] = await Promise.all([
+        // 変更点3: Promise.allで詳細情報を受け取る
+        const [version, details] = await Promise.all([
             getLatestVersion(repo),
-            getRepoTopics(repo)
+            getRepoDetails(repo)
         ]);
-        const category = resolveCategory(topics);
+
+        const category = resolveCategory(details.topics);
         const link = `[${repo}](https://github.com/${GITHUB_USER}/${repo})`;
-        table += `|${name}|${version}|${link}|${category}|\n`;
+        
+        // 変更点4: Issue数とリンクの生成（0件でもリンクがあると便利ですが、不要なら数字だけでも可）
+        const issueCount = details.open_issues_count;
+        const issueLink = `[${issueCount}](https://github.com/${GITHUB_USER}/${repo}/issues)`;
+
+        table += `|${name}|${version}|${link}|${category}|${issueLink}|\n`;
     }
     return table;
 }
@@ -107,8 +118,8 @@ async function updateReadme() {
 
         // 表の更新
         content = content.replace(
-            /<!-- PLUGIN_TABLE_START -->[\s\S]*?<!-- PLUGIN_TABLE_END -->/,
-            `<!-- PLUGIN_TABLE_START -->\n${newTable}\n<!-- PLUGIN_TABLE_END -->`
+            /[\s\S]*?/,
+            `\n${newTable}\n`
         );
 
         // 日付の更新
@@ -119,8 +130,8 @@ async function updateReadme() {
         });
 
         content = content.replace(
-            /<!-- UPDATED_AT -->[\s\S]*?(?=\n|$)/,
-            `<!-- UPDATED_AT --> ${today}`
+            /[\s\S]*?(?=\n|$)/,
+            `${today}`
         );
 
         fs.writeFileSync(README_PATH, content, 'utf8');
@@ -131,6 +142,5 @@ async function updateReadme() {
         process.exit(1);
     }
 }
-
 
 updateReadme();
