@@ -16,11 +16,11 @@
 |LaTeX数式|v1.2.0|[FormulaText](https://github.com/Dolphin-kun/FormulaText)|図形|[0](https://github.com/Dolphin-kun/FormulaText/issues)|
 |YMM4エクスプローラー|v1.5.3|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|ツール|[0](https://github.com/Dolphin-kun/YMM4FileExplorer/issues)|
 |YMM4クリップボード|v1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|ツール|[0](https://github.com/Dolphin-kun/YMM4Clipboard/issues)|
-|テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|ツール|[0](https://github.com/Dolphin-kun/TextSplitter/issues)|
-|スコープモニター|v1.0.0|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|ツール|[1](https://github.com/Dolphin-kun/ScopeMonitorTool/issues)|
+|テキスト分割|Beta|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|ツール|[0](https://github.com/Dolphin-kun/TextSplitter/issues)|
+|スコープモニター|Beta|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|ツール|[1](https://github.com/Dolphin-kun/ScopeMonitorTool/issues)|
 |物理演算|v1.0.0|[YMM4Physics2D](https://github.com/Dolphin-kun/YMM4Physics2D)|映像エフェクト|[2](https://github.com/Dolphin-kun/YMM4Physics2D/issues)|
 
 <!-- PLUGIN_TABLE_END -->
 
 ### 最終更新日
-<!-- UPDATED_AT --> 2026/02/16
+<!-- UPDATED_AT --> 2026/02/17
