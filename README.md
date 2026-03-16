@@ -23,4 +23,4 @@
 <!-- PLUGIN_TABLE_END -->
 
 ### 最終更新日
-<!-- UPDATED_AT --> 2026/03/15
+<!-- UPDATED_AT --> 2026/03/16
