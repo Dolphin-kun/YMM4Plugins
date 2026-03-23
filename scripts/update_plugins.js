@@ -19,7 +19,8 @@ const PLUGINS = {
     "YMM4Clipboard": "YMM4クリップボード",
     "TextSplitter": "テキスト分割",
     "ScopeMonitorTool": "スコープモニター",
-    "YMM4Physics2D": "物理演算"
+    "YMM4Physics2D": "物理演算",
+    "ProxyVideoSource": "動画プロキシ"
 };
 
 const TOPIC_LABELS = {
@@ -27,7 +28,8 @@ const TOPIC_LABELS = {
     "ymm4-tachie": "立ち絵",
     "ymm4-video-effect": "映像エフェクト",
     "ymm4-audio-effect": "音声エフェクト",
-    "ymm4-shape": "図形"
+    "ymm4-shape": "図形",
+    "ymm4-video-source": "動画読み込み"
 };
 
 async function getLatestVersion(repoName) {
