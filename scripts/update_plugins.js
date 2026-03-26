@@ -72,7 +72,8 @@ async function getRepoDetails(repoName) {
         const data = await res.json();
         return {
             topics: data.topics || [],
-            open_issues_count: data.open_issues_count || 0
+            open_issues_count: data.open_issues_count || 0,
+            archived: data.archived || false
         };
     } catch (e) {
         console.error(`Details fetch error (${repoName}):`, e);
@@ -103,7 +104,9 @@ async function generateTable() {
         const issueCount = details.open_issues_count;
         const issueLink = `[${issueCount}](https://github.com/${GITHUB_USER}/${repo}/issues)`;
 
-        table += `|${name}|${version}|${link}|${category}|${issueLink}|\n`;
+        const displayVersion = details.archived ? "更新終了" : version;
+
+        table += `|${name}|${displayVersion}|${link}|${category}|${issueLink}|\n`;
     }
     return table;
 }
