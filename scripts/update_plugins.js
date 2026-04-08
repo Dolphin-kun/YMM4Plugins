@@ -20,7 +20,8 @@ const PLUGINS = {
     "TextSplitter": "テキスト分割",
     "ScopeMonitorTool": "スコープモニター",
     "YMM4Physics2D": "物理演算",
-    "ProxyVideoSource": "動画プロキシ"
+    "ProxyVideoSource": "動画プロキシ",
+    "YMM4GameHub": "YMM4GameHub"
 };
 
 const TOPIC_LABELS = {
