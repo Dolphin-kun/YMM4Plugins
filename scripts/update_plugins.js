@@ -21,7 +21,8 @@ const PLUGINS = {
     "ScopeMonitorTool": "スコープモニター",
     "YMM4Physics2D": "物理演算",
     "ProxyVideoSource": "動画プロキシ",
-    "YMM4GameHub": "YMM4GameHub"
+    "YMM4GameHub": "YMM4GameHub",
+    "ToolBoxPlugin": "ツールボックス"
 };
 
 const TOPIC_LABELS = {
