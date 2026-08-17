@@ -12,8 +12,8 @@
 |エフェクトトリガー|v1.0|[EffectTrigger](https://github.com/Dolphin-kun/EffectTrigger)|映像エフェクト|[1](https://github.com/Dolphin-kun/EffectTrigger/issues)|
 |シャッフルテキスト|v1.1|[ShuffleText](https://github.com/Dolphin-kun/ShuffleText)|映像エフェクト|[0](https://github.com/Dolphin-kun/ShuffleText/issues)|
 |リリックモーションしながら登場退場|v2.0|[LyricMotion](https://github.com/Dolphin-kun/LyricMotion)|映像エフェクト|[0](https://github.com/Dolphin-kun/LyricMotion/issues)|
-|動体検知|v1.0|[MotionDetection](https://github.com/Dolphin-kun/MotionDetection)|映像エフェクト|[0](https://github.com/Dolphin-kun/MotionDetection/issues)|
-|パーツ分解|v1.1|[PartsSplitter](https://github.com/Dolphin-kun/PartsSplitter)|映像エフェクト|[0](https://github.com/Dolphin-kun/PartsSplitter/issues)|
+|動体検知|v2.0.0|[MotionDetection](https://github.com/Dolphin-kun/MotionDetection)|映像エフェクト|[0](https://github.com/Dolphin-kun/MotionDetection/issues)|
+|パーツ分解|更新終了|[PartsSplitter](https://github.com/Dolphin-kun/PartsSplitter)|映像エフェクト|[0](https://github.com/Dolphin-kun/PartsSplitter/issues)|
 |残像|更新終了|[Afterimage](https://github.com/Dolphin-kun/Afterimage)|映像エフェクト|[0](https://github.com/Dolphin-kun/Afterimage/issues)|
 |YMM4Discord読み上げ|更新終了|[YMM4DiscordTTS](https://github.com/Dolphin-kun/YMM4DiscordTTS)|ツール|[0](https://github.com/Dolphin-kun/YMM4DiscordTTS/issues)|
 |LaTeX数式|v1.2.0|[FormulaText](https://github.com/Dolphin-kun/FormulaText)|図形|[0](https://github.com/Dolphin-kun/FormulaText/issues)|
@@ -29,4 +29,4 @@
 <!-- PLUGIN_TABLE_END -->
 
 ### 最終更新日
-<!-- UPDATED_AT --> 2026/08/16
+<!-- UPDATED_AT --> 2026/08/17
