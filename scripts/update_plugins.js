@@ -22,7 +22,8 @@ const PLUGINS = {
     "YMM4Physics2D": "物理演算",
     "ProxyVideoSource": "動画プロキシ",
     "YMM4GameHub": "YMM4GameHub",
-    "ToolBoxPlugin": "ツールボックス"
+    "ToolBoxPlugin": "ツールボックス",
+    "YMM43D": "3Dプレビュー"
 };
 
 const TOPIC_LABELS = {
