@@ -11,7 +11,7 @@
 |アーチ配置|v1.2|[ArcText](https://github.com/Dolphin-kun/ArcText)|映像エフェクト|[0](https://github.com/Dolphin-kun/ArcText/issues)|
 |エフェクトトリガー|v1.0|[EffectTrigger](https://github.com/Dolphin-kun/EffectTrigger)|映像エフェクト|[1](https://github.com/Dolphin-kun/EffectTrigger/issues)|
 |シャッフルテキスト|v1.1|[ShuffleText](https://github.com/Dolphin-kun/ShuffleText)|映像エフェクト|[0](https://github.com/Dolphin-kun/ShuffleText/issues)|
-|リリックモーションしながら登場退場|v3.0.0|[LyricMotion](https://github.com/Dolphin-kun/LyricMotion)|映像エフェクト|[1](https://github.com/Dolphin-kun/LyricMotion/issues)|
+|リリックモーションしながら登場退場|v3.0.1|[LyricMotion](https://github.com/Dolphin-kun/LyricMotion)|映像エフェクト|[0](https://github.com/Dolphin-kun/LyricMotion/issues)|
 |動体検知|v2.0.0|[MotionDetection](https://github.com/Dolphin-kun/MotionDetection)|映像エフェクト|[0](https://github.com/Dolphin-kun/MotionDetection/issues)|
 |パーツ分解|更新終了|[PartsSplitter](https://github.com/Dolphin-kun/PartsSplitter)|映像エフェクト|[0](https://github.com/Dolphin-kun/PartsSplitter/issues)|
 |残像|更新終了|[Afterimage](https://github.com/Dolphin-kun/Afterimage)|映像エフェクト|[0](https://github.com/Dolphin-kun/Afterimage/issues)|
@@ -25,9 +25,9 @@
 |動画プロキシ|更新終了|[ProxyVideoSource](https://github.com/Dolphin-kun/ProxyVideoSource)|動画読み込み|[0](https://github.com/Dolphin-kun/ProxyVideoSource/issues)|
 |YMM4GameHub|v1.0.0|[YMM4GameHub](https://github.com/Dolphin-kun/YMM4GameHub)|その他|[0](https://github.com/Dolphin-kun/YMM4GameHub/issues)|
 |ツールボックス|v3.0.0|[ToolBoxPlugin](https://github.com/Dolphin-kun/ToolBoxPlugin)|ツール|[1](https://github.com/Dolphin-kun/ToolBoxPlugin/issues)|
-|3Dプレビュー|v1.0.0-beta|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|その他|[0](https://github.com/Dolphin-kun/YMM43D/issues)|
+|3Dプレビュー|v1.0.0-beta|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|ツール|[0](https://github.com/Dolphin-kun/YMM43D/issues)|
 
 <!-- PLUGIN_TABLE_END -->
 
 ### 最終更新日
-<!-- UPDATED_AT --> 2026/09/18
+<!-- UPDATED_AT --> 2026/09/19
