@@ -23,7 +23,8 @@ const PLUGINS = {
     "ProxyVideoSource": "動画プロキシ",
     "YMM4GameHub": "YMM4GameHub",
     "ToolBoxPlugin": "ツールボックス",
-    "YMM43D": "3Dプレビュー"
+    "YMM43D": "3Dプレビュー",
+    "MultiUserEdit": "共同編集"
 };
 
 const TOPIC_LABELS = {
