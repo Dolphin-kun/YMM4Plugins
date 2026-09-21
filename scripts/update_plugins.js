@@ -23,8 +23,7 @@ const PLUGINS = {
     "ProxyVideoSource": "動画プロキシ",
     "YMM4GameHub": "YMM4GameHub",
     "ToolBoxPlugin": "ツールボックス",
-    "YMM43D": "3Dプレビュー",
-    "MultiUserEdit": "共同編集"
+    "YMM43D": "3Dプレビュー"
 };
 
 const TOPIC_LABELS = {
@@ -123,8 +122,6 @@ async function generateTable() {
     let table = "|プラグイン|バージョン|リンク|種類|DL数|Issue|\n";
     table += "|-|-|-|-|-:|-|\n";
 
-    let grandTotal = 0;
-
     for (const [repo, name] of Object.entries(PLUGINS)) {
         const [version, details, downloads] = await Promise.all([
             getLatestVersion(repo),
@@ -138,30 +135,22 @@ async function generateTable() {
         const displayVersion = details.archived ? "更新終了" : version;
         const displayDownloads = downloads === null ? "-" : downloads.toLocaleString('ja-JP');
 
-        if (downloads !== null) grandTotal += downloads;
-
         table += `|${name}|${displayVersion}|${link}|${category}|${displayDownloads}|${issueLink}|\n`;
     }
 
-    return { table, grandTotal };
+    return table;
 }
 
 async function updateReadme() {
     try {
         let content = fs.readFileSync(README_PATH, 'utf8');
 
-        const { table: newTable, grandTotal } = await generateTable();
+        const newTable = await generateTable();
 
         // 表の更新
         content = content.replace(
             /<!-- PLUGIN_TABLE_START -->[\s\S]*?<!-- PLUGIN_TABLE_END -->/,
             `<!-- PLUGIN_TABLE_START -->\n${newTable}\n<!-- PLUGIN_TABLE_END -->`
-        );
-
-        // 総DL数の更新
-        content = content.replace(
-            /<!-- TOTAL_DOWNLOADS -->[\s\S]*?(?=\n|$)/,
-            `<!-- TOTAL_DOWNLOADS --> ${grandTotal.toLocaleString('ja-JP')}`
         );
 
         // 日付の更新
