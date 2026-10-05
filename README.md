@@ -19,16 +19,16 @@
 |LaTeX数式|v1.2.0|[FormulaText](https://github.com/Dolphin-kun/FormulaText)|図形|345|[0](https://github.com/Dolphin-kun/FormulaText/issues)|
 |YMM4エクスプローラー|更新終了|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|ツール|988|[0](https://github.com/Dolphin-kun/YMM4FileExplorer/issues)|
 |YMM4クリップボード|v1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|ツール|318|[0](https://github.com/Dolphin-kun/YMM4Clipboard/issues)|
-|テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|ツール|512|[0](https://github.com/Dolphin-kun/TextSplitter/issues)|
-|スコープモニター|v1.0.0|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|ツール|184|[1](https://github.com/Dolphin-kun/ScopeMonitorTool/issues)|
-|物理演算|v1.0.0|[YMM4Physics2D](https://github.com/Dolphin-kun/YMM4Physics2D)|映像エフェクト|547|[2](https://github.com/Dolphin-kun/YMM4Physics2D/issues)|
-|動画プロキシ|更新終了|[ProxyVideoSource](https://github.com/Dolphin-kun/ProxyVideoSource)|動画読み込み|198|[0](https://github.com/Dolphin-kun/ProxyVideoSource/issues)|
-|YMM4GameHub|v1.0.0|[YMM4GameHub](https://github.com/Dolphin-kun/YMM4GameHub)|その他|64|[0](https://github.com/Dolphin-kun/YMM4GameHub/issues)|
-|ツールボックス|v3.0.0|[ToolBoxPlugin](https://github.com/Dolphin-kun/ToolBoxPlugin)|ツール|244|[1](https://github.com/Dolphin-kun/ToolBoxPlugin/issues)|
-|3Dプレビュー|v1.1.0|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|ツール|205|[0](https://github.com/Dolphin-kun/YMM43D/issues)|
-|共同編集|v1.2.1|[MultiUserEdit](https://github.com/Dolphin-kun/MultiUserEdit)|ツール|642|[0](https://github.com/Dolphin-kun/MultiUserEdit/issues)|
+|テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|ツール|513|[0](https://github.com/Dolphin-kun/TextSplitter/issues)|
+|スコープモニター|v1.0.0|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|ツール|185|[1](https://github.com/Dolphin-kun/ScopeMonitorTool/issues)|
+|物理演算|v1.0.0|[YMM4Physics2D](https://github.com/Dolphin-kun/YMM4Physics2D)|映像エフェクト|549|[2](https://github.com/Dolphin-kun/YMM4Physics2D/issues)|
+|動画プロキシ|更新終了|[ProxyVideoSource](https://github.com/Dolphin-kun/ProxyVideoSource)|動画読み込み|199|[0](https://github.com/Dolphin-kun/ProxyVideoSource/issues)|
+|YMM4GameHub|v1.0.0|[YMM4GameHub](https://github.com/Dolphin-kun/YMM4GameHub)|その他|65|[0](https://github.com/Dolphin-kun/YMM4GameHub/issues)|
+|ツールボックス|v3.0.0|[ToolBoxPlugin](https://github.com/Dolphin-kun/ToolBoxPlugin)|ツール|245|[1](https://github.com/Dolphin-kun/ToolBoxPlugin/issues)|
+|3Dプレビュー|v1.1.0|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|ツール|207|[0](https://github.com/Dolphin-kun/YMM43D/issues)|
+|共同編集|v1.2.1|[MultiUserEdit](https://github.com/Dolphin-kun/MultiUserEdit)|ツール|674|[0](https://github.com/Dolphin-kun/MultiUserEdit/issues)|
 
 <!-- PLUGIN_TABLE_END -->
 
 ### 最終更新日
-<!-- UPDATED_AT --> 2026/10/04
+<!-- UPDATED_AT --> 2026/10/05
