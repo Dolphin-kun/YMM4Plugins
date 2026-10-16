@@ -26,8 +26,8 @@
 |YMM4GameHub|v1.0.0|[YMM4GameHub](https://github.com/Dolphin-kun/YMM4GameHub)|その他|65|[0](https://github.com/Dolphin-kun/YMM4GameHub/issues)|
 |ツールボックス|v3.0.0|[ToolBoxPlugin](https://github.com/Dolphin-kun/ToolBoxPlugin)|ツール|253|[3](https://github.com/Dolphin-kun/ToolBoxPlugin/issues)|
 |3Dプレビュー|v1.1.0|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|ツール|239|[0](https://github.com/Dolphin-kun/YMM43D/issues)|
-|共同編集|v1.2.1|[MultiUserEdit](https://github.com/Dolphin-kun/MultiUserEdit)|ツール|783|[1](https://github.com/Dolphin-kun/MultiUserEdit/issues)|
-|YMM4Craft|v1.0.0-plugin|[YMM4Craft](https://github.com/Dolphin-kun/YMM4Craft)|図形|6|[0](https://github.com/Dolphin-kun/YMM4Craft/issues)|
+|共同編集|v1.2.1|[MultiUserEdit](https://github.com/Dolphin-kun/MultiUserEdit)|ツール|785|[1](https://github.com/Dolphin-kun/MultiUserEdit/issues)|
+|YMM4Craft|v1.0.0-plugin|[YMM4Craft](https://github.com/Dolphin-kun/YMM4Craft)|図形|17|[0](https://github.com/Dolphin-kun/YMM4Craft/issues)|
 
 <!-- PLUGIN_TABLE_END -->
 
