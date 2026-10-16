@@ -24,7 +24,8 @@ const PLUGINS = {
     "YMM4GameHub": "YMM4GameHub",
     "ToolBoxPlugin": "ツールボックス",
     "YMM43D": "3Dプレビュー",
-    "MultiUserEdit": "共同編集"
+    "MultiUserEdit": "共同編集",
+    "YMM4Craft": "YMM4Craft"
 };
 
 const TOPIC_LABELS = {
