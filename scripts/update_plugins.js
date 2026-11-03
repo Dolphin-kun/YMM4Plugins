@@ -25,7 +25,8 @@ const PLUGINS = {
     "ToolBoxPlugin": "ツールボックス",
     "YMM43D": "3Dプレビュー",
     "MultiUserEdit": "共同編集",
-    "YMM4Craft": "YMM4Craft"
+    "YMM4Craft": "YMM4Craft",
+    "EncodeNavi": "EncodeNavi"
 };
 
 const TOPIC_LABELS = {
