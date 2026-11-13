@@ -7,30 +7,30 @@
 <!-- PLUGIN_TABLE_START -->
 |プラグイン|バージョン|リンク|種類|DL数|Issue|
 |-|-|-|-|-:|-|
-|反射|v1.1|[ReflectEffect](https://github.com/Dolphin-kun/ReflectEffect)|映像エフェクト|661|[0](https://github.com/Dolphin-kun/ReflectEffect/issues)|
+|反射|v1.1|[ReflectEffect](https://github.com/Dolphin-kun/ReflectEffect)|映像エフェクト|662|[0](https://github.com/Dolphin-kun/ReflectEffect/issues)|
 |アーチ配置|v1.2|[ArcText](https://github.com/Dolphin-kun/ArcText)|映像エフェクト|1,129|[0](https://github.com/Dolphin-kun/ArcText/issues)|
 |エフェクトトリガー|v1.0|[EffectTrigger](https://github.com/Dolphin-kun/EffectTrigger)|映像エフェクト|368|[1](https://github.com/Dolphin-kun/EffectTrigger/issues)|
 |シャッフルテキスト|v1.1|[ShuffleText](https://github.com/Dolphin-kun/ShuffleText)|映像エフェクト|706|[0](https://github.com/Dolphin-kun/ShuffleText/issues)|
-|リリックモーションしながら登場退場|v3.0.1|[LyricMotion](https://github.com/Dolphin-kun/LyricMotion)|映像エフェクト|1,271|[0](https://github.com/Dolphin-kun/LyricMotion/issues)|
-|動体検知|v2.0.0|[MotionDetection](https://github.com/Dolphin-kun/MotionDetection)|映像エフェクト|817|[0](https://github.com/Dolphin-kun/MotionDetection/issues)|
+|リリックモーションしながら登場退場|v3.0.1|[LyricMotion](https://github.com/Dolphin-kun/LyricMotion)|映像エフェクト|1,274|[0](https://github.com/Dolphin-kun/LyricMotion/issues)|
+|動体検知|v2.0.0|[MotionDetection](https://github.com/Dolphin-kun/MotionDetection)|映像エフェクト|818|[0](https://github.com/Dolphin-kun/MotionDetection/issues)|
 |パーツ分解|更新終了|[PartsSplitter](https://github.com/Dolphin-kun/PartsSplitter)|映像エフェクト|953|[0](https://github.com/Dolphin-kun/PartsSplitter/issues)|
-|残像|更新終了|[Afterimage](https://github.com/Dolphin-kun/Afterimage)|映像エフェクト|1,071|[0](https://github.com/Dolphin-kun/Afterimage/issues)|
+|残像|更新終了|[Afterimage](https://github.com/Dolphin-kun/Afterimage)|映像エフェクト|1,074|[0](https://github.com/Dolphin-kun/Afterimage/issues)|
 |YMM4Discord読み上げ|更新終了|[YMM4DiscordTTS](https://github.com/Dolphin-kun/YMM4DiscordTTS)|ツール|247|[0](https://github.com/Dolphin-kun/YMM4DiscordTTS/issues)|
 |LaTeX数式|v1.2.0|[FormulaText](https://github.com/Dolphin-kun/FormulaText)|図形|357|[0](https://github.com/Dolphin-kun/FormulaText/issues)|
 |YMM4エクスプローラー|更新終了|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|ツール|1,007|[0](https://github.com/Dolphin-kun/YMM4FileExplorer/issues)|
 |YMM4クリップボード|v1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|ツール|330|[0](https://github.com/Dolphin-kun/YMM4Clipboard/issues)|
-|テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|ツール|539|[0](https://github.com/Dolphin-kun/TextSplitter/issues)|
+|テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|ツール|540|[0](https://github.com/Dolphin-kun/TextSplitter/issues)|
 |スコープモニター|v1.0.0|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|ツール|197|[1](https://github.com/Dolphin-kun/ScopeMonitorTool/issues)|
 |物理演算|v2.0.0|[YMM4Physics2D](https://github.com/Dolphin-kun/YMM4Physics2D)|映像エフェクト|635|[0](https://github.com/Dolphin-kun/YMM4Physics2D/issues)|
 |動画プロキシ|更新終了|[ProxyVideoSource](https://github.com/Dolphin-kun/ProxyVideoSource)|動画読み込み|217|[0](https://github.com/Dolphin-kun/ProxyVideoSource/issues)|
 |YMM4GameHub|v1.0.0|[YMM4GameHub](https://github.com/Dolphin-kun/YMM4GameHub)|その他|72|[0](https://github.com/Dolphin-kun/YMM4GameHub/issues)|
-|ツールボックス|v4.0.0|[ToolBoxPlugin](https://github.com/Dolphin-kun/ToolBoxPlugin)|ツール|313|[1](https://github.com/Dolphin-kun/ToolBoxPlugin/issues)|
-|3Dプレビュー|v2.0.0|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|ツール|424|[1](https://github.com/Dolphin-kun/YMM43D/issues)|
-|共同編集|v1.2.4|[MultiUserEdit](https://github.com/Dolphin-kun/MultiUserEdit)|ツール|1,068|[0](https://github.com/Dolphin-kun/MultiUserEdit/issues)|
-|YMM4Craft|v1.1.0-plugin|[YMM4Craft](https://github.com/Dolphin-kun/YMM4Craft)|図形|153|[0](https://github.com/Dolphin-kun/YMM4Craft/issues)|
-|EncodeNavi|v1.1.0|[EncodeNavi](https://github.com/Dolphin-kun/EncodeNavi)|ツール|61|[0](https://github.com/Dolphin-kun/EncodeNavi/issues)|
+|ツールボックス|v4.0.0|[ToolBoxPlugin](https://github.com/Dolphin-kun/ToolBoxPlugin)|ツール|315|[1](https://github.com/Dolphin-kun/ToolBoxPlugin/issues)|
+|3Dプレビュー|v2.0.0|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|ツール|436|[1](https://github.com/Dolphin-kun/YMM43D/issues)|
+|共同編集|v1.2.4|[MultiUserEdit](https://github.com/Dolphin-kun/MultiUserEdit)|ツール|1,076|[0](https://github.com/Dolphin-kun/MultiUserEdit/issues)|
+|YMM4Craft|v1.1.0-plugin|[YMM4Craft](https://github.com/Dolphin-kun/YMM4Craft)|図形|155|[0](https://github.com/Dolphin-kun/YMM4Craft/issues)|
+|EncodeNavi|v1.1.0|[EncodeNavi](https://github.com/Dolphin-kun/EncodeNavi)|ツール|62|[0](https://github.com/Dolphin-kun/EncodeNavi/issues)|
 
 <!-- PLUGIN_TABLE_END -->
 
 ### 最終更新日
-<!-- UPDATED_AT --> 2026/11/12
+<!-- UPDATED_AT --> 2026/11/13
