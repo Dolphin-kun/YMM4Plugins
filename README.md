@@ -25,7 +25,7 @@
 |動画プロキシ|更新終了|[ProxyVideoSource](https://github.com/Dolphin-kun/ProxyVideoSource)|動画読み込み|217|[0](https://github.com/Dolphin-kun/ProxyVideoSource/issues)|
 |YMM4GameHub|v1.0.0|[YMM4GameHub](https://github.com/Dolphin-kun/YMM4GameHub)|その他|72|[0](https://github.com/Dolphin-kun/YMM4GameHub/issues)|
 |ツールボックス|v4.0.0|[ToolBoxPlugin](https://github.com/Dolphin-kun/ToolBoxPlugin)|ツール|320|[1](https://github.com/Dolphin-kun/ToolBoxPlugin/issues)|
-|3Dプレビュー|v2.0.0|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|ツール|457|[1](https://github.com/Dolphin-kun/YMM43D/issues)|
+|3Dプレビュー|v2.0.0|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|ツール|459|[1](https://github.com/Dolphin-kun/YMM43D/issues)|
 |共同編集|v1.2.4|[MultiUserEdit](https://github.com/Dolphin-kun/MultiUserEdit)|ツール|1,090|[0](https://github.com/Dolphin-kun/MultiUserEdit/issues)|
 |YMM4Craft|v1.1.0-plugin|[YMM4Craft](https://github.com/Dolphin-kun/YMM4Craft)|図形|158|[0](https://github.com/Dolphin-kun/YMM4Craft/issues)|
 |EncodeNavi|v1.1.0|[EncodeNavi](https://github.com/Dolphin-kun/EncodeNavi)|ツール|62|[0](https://github.com/Dolphin-kun/EncodeNavi/issues)|
