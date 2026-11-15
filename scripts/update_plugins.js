@@ -26,7 +26,8 @@ const PLUGINS = {
     "YMM43D": "3Dプレビュー",
     "MultiUserEdit": "共同編集",
     "YMM4Craft": "YMM4Craft",
-    "EncodeNavi": "EncodeNavi"
+    "EncodeNavi": "EncodeNavi",
+    "PresetStudio": "プリセットスタジオ"
 };
 
 const TOPIC_LABELS = {
