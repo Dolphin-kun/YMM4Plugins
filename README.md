@@ -7,31 +7,31 @@
 <!-- PLUGIN_TABLE_START -->
 |プラグイン|バージョン|リンク|種類|DL数|Issue|
 |-|-|-|-|-:|-|
-|反射|v1.1|[ReflectEffect](https://github.com/Dolphin-kun/ReflectEffect)|映像エフェクト|666|[0](https://github.com/Dolphin-kun/ReflectEffect/issues)|
-|アーチ配置|v1.2|[ArcText](https://github.com/Dolphin-kun/ArcText)|映像エフェクト|1,141|[0](https://github.com/Dolphin-kun/ArcText/issues)|
-|エフェクトトリガー|v1.0|[EffectTrigger](https://github.com/Dolphin-kun/EffectTrigger)|映像エフェクト|372|[1](https://github.com/Dolphin-kun/EffectTrigger/issues)|
-|シャッフルテキスト|v1.1|[ShuffleText](https://github.com/Dolphin-kun/ShuffleText)|映像エフェクト|710|[0](https://github.com/Dolphin-kun/ShuffleText/issues)|
-|リリックモーションしながら登場退場|v3.0.1|[LyricMotion](https://github.com/Dolphin-kun/LyricMotion)|映像エフェクト|1,307|[0](https://github.com/Dolphin-kun/LyricMotion/issues)|
-|動体検知|v2.0.0|[MotionDetection](https://github.com/Dolphin-kun/MotionDetection)|映像エフェクト|822|[0](https://github.com/Dolphin-kun/MotionDetection/issues)|
-|パーツ分解|更新終了|[PartsSplitter](https://github.com/Dolphin-kun/PartsSplitter)|映像エフェクト|981|[0](https://github.com/Dolphin-kun/PartsSplitter/issues)|
-|残像|更新終了|[Afterimage](https://github.com/Dolphin-kun/Afterimage)|映像エフェクト|1,075|[0](https://github.com/Dolphin-kun/Afterimage/issues)|
-|YMM4Discord読み上げ|更新終了|[YMM4DiscordTTS](https://github.com/Dolphin-kun/YMM4DiscordTTS)|ツール|247|[0](https://github.com/Dolphin-kun/YMM4DiscordTTS/issues)|
-|LaTeX数式|v1.2.0|[FormulaText](https://github.com/Dolphin-kun/FormulaText)|図形|361|[0](https://github.com/Dolphin-kun/FormulaText/issues)|
-|YMM4エクスプローラー|更新終了|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|ツール|1,012|[0](https://github.com/Dolphin-kun/YMM4FileExplorer/issues)|
-|YMM4クリップボード|v1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|ツール|331|[0](https://github.com/Dolphin-kun/YMM4Clipboard/issues)|
-|テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|ツール|546|[0](https://github.com/Dolphin-kun/TextSplitter/issues)|
-|スコープモニター|v1.0.0|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|ツール|198|[1](https://github.com/Dolphin-kun/ScopeMonitorTool/issues)|
-|物理演算|v2.0.0|[YMM4Physics2D](https://github.com/Dolphin-kun/YMM4Physics2D)|映像エフェクト|655|[0](https://github.com/Dolphin-kun/YMM4Physics2D/issues)|
-|動画プロキシ|更新終了|[ProxyVideoSource](https://github.com/Dolphin-kun/ProxyVideoSource)|動画読み込み|218|[0](https://github.com/Dolphin-kun/ProxyVideoSource/issues)|
-|YMM4GameHub|v1.0.0|[YMM4GameHub](https://github.com/Dolphin-kun/YMM4GameHub)|その他|73|[0](https://github.com/Dolphin-kun/YMM4GameHub/issues)|
-|ツールボックス|v4.0.0|[ToolBoxPlugin](https://github.com/Dolphin-kun/ToolBoxPlugin)|ツール|344|[0](https://github.com/Dolphin-kun/ToolBoxPlugin/issues)|
-|3Dプレビュー|v3.1.2|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|図形 / ツール / 映像エフェクト|672|[0](https://github.com/Dolphin-kun/YMM43D/issues)|
-|共同編集|v1.2.5|[MultiUserEdit](https://github.com/Dolphin-kun/MultiUserEdit)|ツール|1,195|[0](https://github.com/Dolphin-kun/MultiUserEdit/issues)|
-|YMM4Craft|v1.1.1-plugin|[YMM4Craft](https://github.com/Dolphin-kun/YMM4Craft)|図形|187|[0](https://github.com/Dolphin-kun/YMM4Craft/issues)|
-|EncodeNavi|v1.1.0|[EncodeNavi](https://github.com/Dolphin-kun/EncodeNavi)|ツール|77|[0](https://github.com/Dolphin-kun/EncodeNavi/issues)|
-|プリセットスタジオ|v1.0.0|[PresetStudio](https://github.com/Dolphin-kun/PresetStudio)|ツール|44|[0](https://github.com/Dolphin-kun/PresetStudio/issues)|
+|反射|v1.1|[ReflectEffect](https://github.com/Dolphin-kun/ReflectEffect)|映像エフェクト|667|[0](https://github.com/Dolphin-kun/ReflectEffect/issues)|
+|アーチ配置|v1.2|[ArcText](https://github.com/Dolphin-kun/ArcText)|映像エフェクト|1,144|[0](https://github.com/Dolphin-kun/ArcText/issues)|
+|エフェクトトリガー|v2.0|[EffectTrigger](https://github.com/Dolphin-kun/EffectTrigger)|映像エフェクト|394|[0](https://github.com/Dolphin-kun/EffectTrigger/issues)|
+|シャッフルテキスト|v1.1|[ShuffleText](https://github.com/Dolphin-kun/ShuffleText)|映像エフェクト|711|[0](https://github.com/Dolphin-kun/ShuffleText/issues)|
+|リリックモーションしながら登場退場|v3.0.1|[LyricMotion](https://github.com/Dolphin-kun/LyricMotion)|映像エフェクト|1,313|[0](https://github.com/Dolphin-kun/LyricMotion/issues)|
+|動体検知|v2.0.0|[MotionDetection](https://github.com/Dolphin-kun/MotionDetection)|映像エフェクト|824|[0](https://github.com/Dolphin-kun/MotionDetection/issues)|
+|パーツ分解|更新終了|[PartsSplitter](https://github.com/Dolphin-kun/PartsSplitter)|映像エフェクト|984|[0](https://github.com/Dolphin-kun/PartsSplitter/issues)|
+|残像|更新終了|[Afterimage](https://github.com/Dolphin-kun/Afterimage)|映像エフェクト|1,077|[0](https://github.com/Dolphin-kun/Afterimage/issues)|
+|YMM4Discord読み上げ|更新終了|[YMM4DiscordTTS](https://github.com/Dolphin-kun/YMM4DiscordTTS)|ツール|248|[0](https://github.com/Dolphin-kun/YMM4DiscordTTS/issues)|
+|LaTeX数式|v1.2.0|[FormulaText](https://github.com/Dolphin-kun/FormulaText)|図形|362|[0](https://github.com/Dolphin-kun/FormulaText/issues)|
+|YMM4エクスプローラー|更新終了|[YMM4FileExplorer](https://github.com/Dolphin-kun/YMM4FileExplorer)|ツール|1,013|[0](https://github.com/Dolphin-kun/YMM4FileExplorer/issues)|
+|YMM4クリップボード|v1.1.0|[YMM4Clipboard](https://github.com/Dolphin-kun/YMM4Clipboard)|ツール|332|[0](https://github.com/Dolphin-kun/YMM4Clipboard/issues)|
+|テキスト分割|v2.0.0|[TextSplitter](https://github.com/Dolphin-kun/TextSplitter)|ツール|548|[0](https://github.com/Dolphin-kun/TextSplitter/issues)|
+|スコープモニター|v1.0.0|[ScopeMonitorTool](https://github.com/Dolphin-kun/ScopeMonitorTool)|ツール|199|[1](https://github.com/Dolphin-kun/ScopeMonitorTool/issues)|
+|物理演算|v2.0.0|[YMM4Physics2D](https://github.com/Dolphin-kun/YMM4Physics2D)|映像エフェクト|662|[0](https://github.com/Dolphin-kun/YMM4Physics2D/issues)|
+|動画プロキシ|更新終了|[ProxyVideoSource](https://github.com/Dolphin-kun/ProxyVideoSource)|動画読み込み|219|[0](https://github.com/Dolphin-kun/ProxyVideoSource/issues)|
+|YMM4GameHub|v1.0.0|[YMM4GameHub](https://github.com/Dolphin-kun/YMM4GameHub)|その他|75|[0](https://github.com/Dolphin-kun/YMM4GameHub/issues)|
+|ツールボックス|v4.0.0|[ToolBoxPlugin](https://github.com/Dolphin-kun/ToolBoxPlugin)|ツール|345|[0](https://github.com/Dolphin-kun/ToolBoxPlugin/issues)|
+|3Dプレビュー|v3.1.2|[YMM43D](https://github.com/Dolphin-kun/YMM43D)|図形 / ツール / 映像エフェクト|692|[0](https://github.com/Dolphin-kun/YMM43D/issues)|
+|共同編集|v1.2.5|[MultiUserEdit](https://github.com/Dolphin-kun/MultiUserEdit)|ツール|1,203|[0](https://github.com/Dolphin-kun/MultiUserEdit/issues)|
+|YMM4Craft|v1.1.1-plugin|[YMM4Craft](https://github.com/Dolphin-kun/YMM4Craft)|図形|189|[0](https://github.com/Dolphin-kun/YMM4Craft/issues)|
+|EncodeNavi|v1.1.0|[EncodeNavi](https://github.com/Dolphin-kun/EncodeNavi)|ツール|80|[0](https://github.com/Dolphin-kun/EncodeNavi/issues)|
+|プリセットスタジオ|v1.0.0|[PresetStudio](https://github.com/Dolphin-kun/PresetStudio)|ツール|48|[0](https://github.com/Dolphin-kun/PresetStudio/issues)|
 
 <!-- PLUGIN_TABLE_END -->
 
 ### 最終更新日
-<!-- UPDATED_AT --> 2026/11/26
+<!-- UPDATED_AT --> 2026/11/27
